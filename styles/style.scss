@@ -1,0 +1,55 @@
+$black: #4d4c59;
+$purple: #6c63ff;
+$light-grey: #c8c8c8;
+$text-color: #9c9ab6;
+$font: "Poppins", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: $font;
+  height: 85vh;
+  align-items: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      color: $purple;
+      font-size: 3rem;
+      text-justify: inter-word;
+      align-self: center;
+    }
+    .timer {
+      display: flex;
+      color: $black;
+      align-self: center;
+      h2 {
+        font-size: 4rem;
+        text-justify: inter-word;
+        margin: 0 0.5vw;
+      }
+    }
+  }
+  h3 {
+    align-self: center;
+  }
+  input {
+    width: 40%;
+    height: 3rem;
+    background-color: $purple;
+    border-style: none;
+    color: white;
+    font-size: 1rem;
+    align-self: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 2vh 0;
+    cursor: pointer;
+  }
+}
